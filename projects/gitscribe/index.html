@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="/favicon.png">
+<title>GitScribe | That Blog</title>
+
+      <link rel="stylesheet" href="/css/oat.min.min.5b4c6744ce8d6e719410aaf8a30e5f591ba4e400e62997106cfbbd7a2e7a7f97.css" integrity="sha256-W0xnRM6NbnGUEKr4ow5fWRuk5ADmKZcQbPu9ei56f5c=" crossorigin="anonymous">
+
+
+        <script src="/js/oat.min.336c93c78df1107ca7aadb22c22835d88b3431d7cdc742f3d12cc7f2451535f6.js" integrity="sha256-M2yTx43xEHynqtsiwig12Is0MdfNx0Lz0SzH8kUVNfY=" crossorigin="anonymous"></script>
+
+
+</head>
+<body style="max-width: 768px; margin: auto;">
+  <header>
+
+  <div class="container hstack justify-between mt-4 mb-6">
+    <a href="https://thatwebsite.xyz/" class="brand unstyled hstack">
+      <img height="40px" src="/logo.png" alt="That Blog">
+      <strong class="text-3">That Blog</strong>
+    </a>
+    <nav>
+      
+  <menu class="buttons">
+    <li>
+      <a class="button outline" class="ghost" href="/blog/">Articles</a>
+    </li>
+    <li>
+      <a class="button outline" class="ghost" href="/projects/">Projects</a>
+    </li>
+  </menu>
+
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    
+  <article class="container mx-auto mt-6 mb-6" style="max-width: 48rem;">
+    <header class="mb-6 pb-6" style="border-bottom: 1px solid var(--border);">
+      <div class="text-7 text-light hstack gap-2">
+        <time datetime="2026-03-12T10:00:00&#43;05:30">March 12, 2026</time>
+        
+        <span class="text-lighter">•</span>
+        <div class="hstack gap-1">
+          
+          <a href="/tags/project" class="badge outline small" style="text-decoration: none;">Project</a>
+          
+        </div>
+        
+      </div>
+      <h1 class="mt-2" style="margin-bottom: 0;">GitScribe</h1>
+      
+      <p class="text-3 text-light mt-4" style="margin-bottom: 0;">A Go-based tool for automating high-quality Git commit messages using LLMs.</p>
+      
+    </header>
+    <div class="article-content">
+      <p><strong>GitScribe</strong> is a Go-based tool for automating high-quality Git commit messages using LLMs. This tool features <strong>zero-dependency Go architecture</strong>, <strong>context-aware intelligence</strong>, and <strong>seamless integration with local LLMs like Ollama</strong></p>
+<p>We&rsquo;ve all been there. You&rsquo;ve just finished a marathon coding session, fixed three bugs, refactored two modules, and added a shiny new feature. You&rsquo;re tired, and you just want to push your code and call it a day. Then comes the prompt:</p>
+<p><code>git commit -m &quot;...&quot;</code></p>
+<p>What do you write? &ldquo;Update files&rdquo;? &ldquo;Fix bugs&rdquo;? &ldquo;Refactor stuff&rdquo;? We know these aren&rsquo;t helpful, but writing a detailed, meaningful commit message feels like one last chore standing between you and a well-deserved break.</p>
+<p>Enter <strong>GitScribe</strong>.</p>
+<p>GitScribe is a lightweight, Go-based command-line tool designed to take the friction out of maintaining a high-quality project history. It uses the power of Large Language Models (LLMs) to automatically generate descriptive, context-aware commit messages that look like they were written by a human who actually cares.</p>
+<h2 id="the-gitscribe-difference">The GitScribe Difference</h2>
+<p>While there are many AI-powered commit tools out there, GitScribe is built with a specific philosophy: it should be fast, private, and deeply integrated into your existing workflow.</p>
+<h3 id="zero-dependency-go-architecture">Zero-Dependency Go Architecture</h3>
+<p>GitScribe is built entirely using the Go standard library. No <code>node_modules</code>, no heavy Python environments, no external dependencies whatsoever. This makes it incredibly lightweight and easy to install. Whether you&rsquo;re on macOS, Linux, or Windows, you get a single binary that just works. This &ldquo;zero-dependency&rdquo; approach ensures that your development tools don&rsquo;t become a maintenance burden themselves.</p>
+<h3 id="context-aware-intelligence">Context-Aware Intelligence</h3>
+<p>A good commit message isn&rsquo;t just a summary of a <code>git diff</code>. It needs to understand the <em>intent</em> and the <em>style</em> of the project. GitScribe goes beyond simple diff analysis:</p>
+<ul>
+<li><strong>Diff &amp; History</strong>: It analyzes your staged changes alongside your recent commit history to ensure the generated message matches your project&rsquo;s established tone and formatting.</li>
+<li><strong>Project-Specific Guidance</strong>: GitScribe looks for local guidance files (like <code>AGENTS.md</code> or <code>dear_llm.md</code>) to follow specific rules or &ldquo;agent identities&rdquo; unique to your repository.</li>
+<li><strong>Smart Metadata</strong>: It can automatically extract JIRA-like tags from your branch names and append <code>Co-authored-by</code> trailers, keeping your project&rsquo;s tracking and attribution seamless.</li>
+</ul>
+<h3 id="seamless-local-llm-integration">Seamless Local LLM Integration</h3>
+<p>Privacy and speed are paramount. GitScribe is designed to work perfectly with local LLM runners like <strong>Ollama</strong>.</p>
+<ul>
+<li><strong>Auto-Model Selection</strong>: Don&rsquo;t want to spend time configuring models? GitScribe features an intelligent heuristic system that scans your local LLM server and automatically selects the best available model (prioritizing high-performance models like Llama 3 or Qwen) based on your system&rsquo;s capabilities.</li>
+<li><strong>OpenAI Compatible</strong>: While it defaults to Ollama, it can connect to any OpenAI-compatible API, giving you the flexibility to use cloud providers if you prefer.</li>
+</ul>
+<h3 id="built-for-your-workflow">Built for Your Workflow</h3>
+<p>GitScribe doesn&rsquo;t try to replace <code>git</code>; it enhances it. It fits right into your standard flow:</p>
+<ul>
+<li>Use <code>gitscribe</code> to preview a suggested message.</li>
+<li>Use <code>gitscribe -commit</code> to generate a message and commit in one go.</li>
+<li>Use <code>gitscribe -amend</code> if you&rsquo;ve already committed but want to give that &ldquo;Fixed it&rdquo; message a professional makeover.</li>
+</ul>
+<h2 id="how-to-get-started">How to Get Started</h2>
+<p>Getting GitScribe up and running is as simple as it gets.</p>
+<h3 id="installation">Installation</h3>
+<p>Since it&rsquo;s a Go project, you can build it directly from source:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go build -o gitscribe main.go
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Move the binary to your PATH</span>
+</span></span><span style="display:flex;"><span>mv gitscribe /usr/local/bin/
+</span></span></code></pre></div><h3 id="configuration-optional">Configuration (Optional)</h3>
+<p>GitScribe uses your existing <code>git config</code> for settings. For example, to point it to a specific Ollama model:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config tools.gitscribe.model llama3
+</span></span><span style="display:flex;"><span>git config tools.gitscribe.apiBaseUrl http://localhost:11434/v1
+</span></span></code></pre></div><h3 id="usage">Usage</h3>
+<p>Stage your changes as usual:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span></code></pre></div><p>Then, let GitScribe do its magic:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Preview a message</span>
+</span></span><span style="display:flex;"><span>gitscribe
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Generate and commit immediately</span>
+</span></span><span style="display:flex;"><span>gitscribe -commit
+</span></span></code></pre></div><h2 id="level-up-your-git-history">Level Up Your Git History</h2>
+<p>Meaningful commit messages are a gift to your future self and your teammates. They make <code>git blame</code> useful again, simplify code reviews, and turn your project history into a readable narrative of its evolution.</p>
+<p>With <strong>GitScribe</strong>, you no longer have to choose between speed and quality. Let the AI handle the prose so you can get back to the code.</p>
+<hr>
+<p><em>Check out the <a href="https://tangled.org/darshil.tngl.sh/gitscribe">GitScribe repository</a> to learn more and contribute!</em></p>
+    </div>
+  </article>
+
+  </main>
+  <footer class="container mt-6 mb-6 p-4 align-center text-light">
+    <p>&copy; 2026 ThatWebsite. All rights reserved.</p>
+<p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+
+  </footer>
+</body>
+</html>

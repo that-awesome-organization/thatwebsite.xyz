@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://thatwebsite.xyz/projects/gitscribe/</loc>
+    <lastmod>2026-03-12T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/tags/project/</loc>
+    <lastmod>2026-03-12T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/tags/</loc>
+    <lastmod>2026-03-12T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/</loc>
+    <lastmod>2026-03-12T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/projects/</loc>
+    <lastmod>2024-01-01T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/blog/</loc>
+    <lastmod>2020-03-10T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/blog/hello-world/</loc>
+    <lastmod>2020-03-10T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://thatwebsite.xyz/categories/</loc>
+  </url>
+</urlset>

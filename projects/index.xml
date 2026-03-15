@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on That Blog</title>
+    <link>https://thatwebsite.xyz/projects/</link>
+    <description>Recent content in Projects on That Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2026 10:00:00 +0530</lastBuildDate>
+    <atom:link href="https://thatwebsite.xyz/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitScribe</title>
+      <link>https://thatwebsite.xyz/projects/gitscribe/</link>
+      <pubDate>Thu, 12 Mar 2026 10:00:00 +0530</pubDate>
+      <guid>https://thatwebsite.xyz/projects/gitscribe/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;GitScribe&lt;/strong&gt; is a Go-based tool for automating high-quality Git commit messages using LLMs. This tool features &lt;strong&gt;zero-dependency Go architecture&lt;/strong&gt;, &lt;strong&gt;context-aware intelligence&lt;/strong&gt;, and &lt;strong&gt;seamless integration with local LLMs like Ollama&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
