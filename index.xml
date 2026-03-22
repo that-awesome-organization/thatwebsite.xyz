@@ -16,6 +16,13 @@
       <description>&lt;p&gt;&lt;strong&gt;GitScribe&lt;/strong&gt; is a Go-based tool for automating high-quality Git commit messages using LLMs. This tool features &lt;strong&gt;zero-dependency Go architecture&lt;/strong&gt;, &lt;strong&gt;context-aware intelligence&lt;/strong&gt;, and &lt;strong&gt;seamless integration with local LLMs like Ollama&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>That SSL Checker</title>
+      <link>https://thatwebsite.xyz/projects/that-ssl-checker/</link>
+      <pubDate>Wed, 13 Mar 2024 10:00:00 +0530</pubDate>
+      <guid>https://thatwebsite.xyz/projects/that-ssl-checker/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://that-ssl-checker.thatwebsite.xyz/&#34;&gt;That SSL Checker&lt;/a&gt; is a hosted utility that allows users to quickly inspect the SSL/TLS certificate of a given server.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hello World</title>
       <link>https://thatwebsite.xyz/blog/hello-world/</link>
       <pubDate>Tue, 10 Mar 2020 10:00:00 +0530</pubDate>

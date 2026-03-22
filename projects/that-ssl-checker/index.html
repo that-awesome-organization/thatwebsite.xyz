@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="/favicon.png">
+<title>That SSL Checker | That Blog</title>
+<script defer data-domain="thatwebsite.xyz" src="https://analytics.thatwebsite.xyz/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+      <link rel="stylesheet" href="/css/oat.min.min.5b4c6744ce8d6e719410aaf8a30e5f591ba4e400e62997106cfbbd7a2e7a7f97.css" integrity="sha256-W0xnRM6NbnGUEKr4ow5fWRuk5ADmKZcQbPu9ei56f5c=" crossorigin="anonymous">
+
+
+        <script src="/js/oat.min.336c93c78df1107ca7aadb22c22835d88b3431d7cdc742f3d12cc7f2451535f6.js" integrity="sha256-M2yTx43xEHynqtsiwig12Is0MdfNx0Lz0SzH8kUVNfY=" crossorigin="anonymous"></script>
+
+
+</head>
+<body style="max-width: 768px; margin: auto;">
+  <header>
+
+  <div class="container hstack justify-between mt-4 mb-6">
+    <a href="https://thatwebsite.xyz/" class="brand unstyled hstack">
+      <img height="40px" src="/logo.png" alt="That Blog">
+      <strong class="text-3">That Blog</strong>
+    </a>
+    <nav>
+      
+  <menu class="buttons">
+    <li>
+      <a class="button outline" class="ghost" href="/blog/">Articles</a>
+    </li>
+    <li>
+      <a class="button outline" class="ghost" href="/projects/">Projects</a>
+    </li>
+  </menu>
+
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    
+  <article class="container mx-auto mt-6 mb-6" style="max-width: 48rem;">
+    <header class="mb-6 pb-6" style="border-bottom: 1px solid var(--border);">
+      <div class="text-7 text-light hstack gap-2">
+        <time datetime="2024-03-13T10:00:00&#43;05:30">March 13, 2024</time>
+        
+        <span class="text-lighter">•</span>
+        <div class="hstack gap-1">
+          
+          <a href="/tags/project" class="badge outline small" style="text-decoration: none;">Project</a>
+          
+        </div>
+        
+      </div>
+      <h1 class="mt-2" style="margin-bottom: 0;">That SSL Checker</h1>
+      
+      <p class="text-3 text-light mt-4" style="margin-bottom: 0;">A simple tool to check SSL certificate expiry and details for any hostname.</p>
+      
+    </header>
+    <div class="article-content">
+      <p><a href="https://that-ssl-checker.thatwebsite.xyz/">That SSL Checker</a> is a hosted utility that allows users to quickly inspect the SSL/TLS certificate of a given server.</p>
+<h3 id="what-is-it">What is it?</h3>
+<p>This is a simple tool that checks the SSL Certificates for hosts and stores it locally. The main advantage is to have this tool available everywhere, even on mobile.</p>
+<p><img src="/images/projects/that-ssl-checker/initial.png" alt="Initial state"></p>
+<h3 id="how-to-use">How to use?</h3>
+<p>The usage is simple, just input the <code>address:port</code> like <code>dcpri.me:443</code> or <code>example.com:443</code> and press Enter/Return.</p>
+<p>Once added the information will be shown as a card.
+To remove any existing card just click on the <code>×</code> icon shown at the top right of it.</p>
+<p><img src="/images/projects/that-ssl-checker/result.png" alt="Result card"></p>
+<h3 id="how-it-works">How it works?</h3>
+<p>All the details are coming from API call, <code>/check</code>. It takes at max two parameters, <code>addr_strings</code> and <code>force</code>.</p>
+<ul>
+<li><code>addr_strings</code>: it can be an array of <code>host:port</code> strings.</li>
+<li><code>force</code>: is a boolean that tells the API to ignore cache and re-check.</li>
+</ul>
+<h3 id="where-can-i-find-more-details">Where can I find more details?</h3>
+<p>The name of the project is <code>that-ssl-checker</code>, code available <a href="https://github.com/dcpri/that-ssl-checker">here</a>.</p>
+<blockquote>
+<p>Note: To have a quick response the API underneath is caching the certificates for at max an hour. In case if you want to check the latest click on Force Check button.</p>
+</blockquote>
+    </div>
+  </article>
+
+  </main>
+  <footer class="container mt-6 mb-6 p-4 align-center text-light">
+    <p>&copy; 2026 ThatWebsite. All rights reserved.</p>
+<p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+
+  </footer>
+</body>
+</html>
